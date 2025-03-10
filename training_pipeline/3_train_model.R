@@ -39,8 +39,8 @@ model_test_3_scaled_xgbt_01 <- train(HC50.exp ~ .,
 # Saving results
 print(model_test_3_scaled_xgbt_01)
 write.csv((as.data.frame(model_test_3_scaled_xgbt_01$results)), 
-          file = "xgbt_scaled_3_0to1.csv")
+          file = "model_results.csv")
 print(model_test_3_scaled_xgbt_01_$results)
 View(model_test_3_scaled_xgbt_01_$results)
 saveRDS(model_test_3_scaled_xgbt_01,
-        file = "xgbt_scaled_3_0to1.rds")
+        file = "model.rds")
