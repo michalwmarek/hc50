@@ -11,9 +11,11 @@ Ensure you have the following installed on your system:
 
 ## 1.2. Create Conda Environment with RDKit
 1. Open Anaconda Prompt and run:
-  > conda create -n rdkit-env python=3.9 rdkit -c conda-forge
+  > conda create -n rdkit-env python=3.10 rdkit -c conda-forge
 2. Activate the environment:
   > conda activate rdkit-env
+
+The installed version of RDKit is 2022.03.05.
 
 # 2. Required R packages
 ## 2.1 Run the following in RStudio:
