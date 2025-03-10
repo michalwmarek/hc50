@@ -1,8 +1,6 @@
 # Loading libraries
 library(dplyr)
 library(caret)
-library(Metrics)
-library(beepr)
 
 # Loading scaled data set
 train_data_3_scaled_xgbt_01 <- read.csv("descriptors_dataframe_desc_center_0to1_maccs.csv")
