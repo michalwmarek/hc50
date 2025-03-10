@@ -1,6 +1,7 @@
 # The Protocol for Predicting the Ecotoxicity of Chemical Compounds Using Machine Learning and Various Molecular Structure Representations
 
-This repository contains scripts for prediction HC50 values (hazardous concentration) using a QSPR model. This model is built in R, with RDKit used for computing molecular descriptors via reticulate.
+This repository contains scripts for prediction HC50 values (hazardous concentration) using a QSPR model. This model is built in R, with RDKit used for computing molecular descriptors via reticulate.  
+The best model was trained using 100 moleculars descriptors scaled between 0 and 1, MACCS keys as molecular fingerprints and the `xgbTree` algorithm.
 
 # 1. Setup
 ## 1.1. Install software
