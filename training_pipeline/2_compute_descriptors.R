@@ -8,7 +8,7 @@ data_SMILES <- read.csv("smiles_hc50.csv")
 smiles_codes <- data_SMILES$SMILES
 
 # Loading a Python interpreter from an Anaconda environment to run 'rdkit' package in R environment
-use_python("path to python.exe")
+use_python("path\\to\\python.exe")
 
 # Importing 'rdkit' modules for chemoinformatics
 rdkit <- import("rdkit")
