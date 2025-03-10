@@ -49,3 +49,8 @@ Replace "CCCCCC" with your molecule of interest.
 ## 4.3. Running the script
 In RStudio run:  
 > source("4_predict_HC50.R")  
+
+# 5. Dataset
+The dataset used for model training is is sourced from the following publication:  
+**doi:** [10.1021/acssuschemeng.0c03660](https://doi.org/10.1021/acssuschemeng.0c03660)  
+The original dataset is available as **Supporting Information**.  
