@@ -57,3 +57,8 @@ In RStudio run:
 The dataset used for model training is is sourced from the following publication:  
 **doi:** [10.1021/acssuschemeng.0c03660](https://doi.org/10.1021/acssuschemeng.0c03660)  
 The original dataset is available as **Supporting Information**.  
+
+# 6. Related publication
+*Ecotoxicity prediction of chemical compounds using machine learning and different molecular structure representations*  
+**doi:** [10.1016/j.greeac.2025.100273](https://doi.org/10.1016/j.greeac.2025.100273)  
+Published in *Green Analytical Chemistry*, Volume 13, June 2025
